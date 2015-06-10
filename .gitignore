@@ -4,10 +4,6 @@ js/src/config.coffee
 /css/bootstrap.css
 /.project
 /css/.sass-cache/
-/js/commons/
-/js/imagination/
-/js/map/
-/js/vendor/
 .sass-cache/
 doc.html
 # OSX CRAP

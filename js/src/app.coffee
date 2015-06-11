@@ -50,11 +50,11 @@ angular.module('imagination', ['commons.catalog', 'commons.commonsdevmap', 'comm
 .config(['$locationProvider', '$stateProvider', '$urlRouterProvider', ($locationProvider, $stateProvider, $urlRouterProvider) ->
 
         $locationProvider.html5Mode(config.useHtml5Mode)
-        $urlRouterProvider.otherwise("/p/list")
+        $urlRouterProvider.otherwise("/")
 
         $stateProvider.state('home',
                 url: '/',
-                templateUrl: 'views/homepage.html',
+                templateUrl: '/views/catalog/project.list.html',
                 ncyBreadcrumb:
                     label: 'Accueil'
         )

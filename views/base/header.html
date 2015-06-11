@@ -9,7 +9,7 @@
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" ui-sref="project.list"><img src="./img/imagination.logo.jpg" alt="Logo Imagination" /></a>
+                        <a class="navbar-brand" ui-sref="project.list"><img src="/img/imagination.logo.jpg" alt="Logo Imagination" /></a>
                     </div>
                     
                     
@@ -17,10 +17,10 @@
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <!-- <li><a ui-sref="home" ng-class="{ selected: $state.includes('home') }">Accueil</a></li> -->
-                            <li><a ui-sref="about" ng-class="{ selected: $state.includes('about') }">A propos</a></li>
+                            <li><a href="/about" ng-class="{ selected: $state.includes('about') }">A propos</a></li>
                             <!-- <li><a ui-sref="profile.list" ng-class="{ selected: $state.includes('profile.list') }">Membres</a></li> -->
                             <!-- <li><a ui-sref="map" ng-class="{ selected: $state.includes('map') }">Cartographie</a></li> -->
-                            <li><a ui-sref="project.list({tag:'',query:''})" ng-class="{ selected: $state.includes('project.list') }">Projets</a></li>
+                            <li><a href="/#/p/list" ng-class="{ selected: $state.includes('project.list') }">Projets</a></li>
                             <!-- <li><a ui-sref="forum" ng-class="{ selected: $state.includes('forum') }">Discussions</a></li> -->
                         </ul>
                         <!--
